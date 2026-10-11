@@ -1,9 +1,17 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+:root {
+    --custom-default-font: "DM Sans", sans-serif;;
+}
+
 * {
+    font-family: "DM Sans", sans-serif;;
     box-sizing:border-box;
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -32,6 +40,7 @@ nav {
 
 
 .nav-logo {
+    font-weight: 600;
     font-size: 30px;
     cursor:pointer;
 }
@@ -51,6 +60,7 @@ nav {
 /* modal */
 
 .modal {
+  
     height: 200px;
     width: 300px;
     background-color: black;
@@ -70,11 +80,13 @@ nav {
 }
 
 .modal h3 {
+    font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
 }
 
 .modal button {
+    font-weight: 500;
     cursor: pointer;
     border-radius: 5px;
     outline: none;
@@ -91,19 +103,23 @@ nav {
 }
 
 #contin-btn {
-    background-color: gray;
+    border: 1px solid white;
+    background-color: transparent;
 }
 
 #contin-btn:hover {
-    background-color: rgb(69, 69, 69);
+    background-color:  dodgerblue;
+    border: 1px solid transparent;
 }
 
 #cancel-btn {
-    background-color: red;
+    background-color:  rgba(30, 143, 255, 0.288);
+    color: white;
 }
 
 #cancel-btn:hover {
-    background-color: rgb(173, 1, 1);
+    background-color: transparent;
+    border: 1px solid dodgerblue;
 }
 
 /*  for smaller screens */

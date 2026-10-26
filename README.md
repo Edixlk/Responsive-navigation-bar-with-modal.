@@ -1,1 +1,12 @@
-This is just a basic responsive navbar which was built with basic javascript using the ``if(){}..else{}`` statement with a strict equality `===` operator.
+# Responsive nav bar
+
+This is just a basic responsive navbar which was built with basic javascript using the if(){}..else{} statement with a strict equality === operator.
+
+
+### Preview
+
+Desktop:
+![Desktop-navbar](./Images/preview-desktop.png)
+
+Mobile:
+![Mobile-navbar](./Images/preview-mobile.png)

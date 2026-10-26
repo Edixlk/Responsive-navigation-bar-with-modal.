@@ -1,6 +1,6 @@
 // navigation bar for smaller screen
 const menuBtn = document.getElementById("hamburger-menu");
-const navLinks = document.getElementById("navig-links");
+const navLinks = document.getElementById("mobile-navig");
 // logo on navigation bar.
 const navLogo = document.querySelector(".nav-logo");
 

@@ -5,8 +5,8 @@ This is just a basic responsive navbar which was built with basic javascript usi
 
 ### Preview
 
-Desktop:
+
 ![Desktop-navbar](./Images/preview-desktop.png)
 
-Mobile:
+
 ![Mobile-navbar](./Images/preview-mobile.png)

@@ -122,6 +122,54 @@ nav {
   border: 1px solid dodgerblue;
 }
 
+/* hero section */
+
+/* for background image */
+.main {
+  background: url(https://throoplandscapesupply.com/cdn/shop/files/Antique-White-1.jpg?v=1700083477&width=1445);
+  aspect-ratio: 16/9;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(58, 48, 35, 0.715);
+  background-blend-mode: color-burn;
+  justify-content: center;
+  width: 100%;
+  padding: 2em 3em;
+  height: 80dvh;
+}
+
+.main .hero-title {
+  color: antiquewhite;
+  font-size: 5rem;
+  line-height: 0.6;
+}
+
+.hero-subtext {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+#contin-btn {
+  background-color: antiquewhite;
+  color: rgb(65, 60, 54);
+  width: 150px;
+  padding: 16px 2px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#contin-btn:hover  {
+  background-color: transparent;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+}
+
 /*  for smaller screens */
 
 /* med - small screens */
@@ -167,4 +215,16 @@ nav {
     color: rgb(5, 46, 88);
     font-weight: bold;
   }
+
+  /* main section */
+  .main {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+ #contin-btn {
+  position: absolute;
+  bottom: 39px;
+ }
 }
